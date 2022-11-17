@@ -25,4 +25,4 @@ Please pay attention with java version, should be 8!
 
 ## Test result
 
-Open ```verification_report.html``` in tha any webbrowser.
+Open ```verification_report.html``` in thу any webbrowser.
