@@ -1,0 +1,76 @@
+
+<html>
+  <head><title>HTML Pandas Dataframe with CSS</title></head>
+  <link rel="stylesheet" type="text/css" href="df_style.css"/>
+  <body>
+    <table border="1" class="dataframe mystyle">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>check_status</th>
+      <th>check_level</th>
+      <th>constraint_status</th>
+      <th>check</th>
+      <th>constraint_message</th>
+      <th>constraint</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Warning</td>
+      <td>Warning</td>
+      <td>Success</td>
+      <td>Review Check</td>
+      <td></td>
+      <td>SizeConstraint(Size(None))</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Warning</td>
+      <td>Warning</td>
+      <td>Success</td>
+      <td>Review Check</td>
+      <td></td>
+      <td>MinimumConstraint(Minimum(AddressID,None))</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Warning</td>
+      <td>Warning</td>
+      <td>Success</td>
+      <td>Review Check</td>
+      <td></td>
+      <td>CompletenessConstraint(Completeness(AddressID,None))</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Warning</td>
+      <td>Warning</td>
+      <td>Success</td>
+      <td>Review Check</td>
+      <td></td>
+      <td>UniquenessConstraint(Uniqueness(List(rowguid),None))</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Warning</td>
+      <td>Warning</td>
+      <td>Failure</td>
+      <td>Review Check</td>
+      <td>Value: 0.011777301927194861 does not meet the constraint requirement!</td>
+      <td>ComplianceConstraint(Compliance(StateProvinceID contained in 8,8,`StateProvinceID` IS NULL OR `StateProvinceID` IN ('8','8'),None))</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Warning</td>
+      <td>Warning</td>
+      <td>Success</td>
+      <td>Review Check</td>
+      <td></td>
+      <td>ComplianceConstraint(Compliance(PostalCode is non-negative,COALESCE(CAST(PostalCode AS DECIMAL(20,10)), 0.0) &gt;= 0,None))</td>
+    </tr>
+  </tbody>
+</table>
+  </body>
+</html>
