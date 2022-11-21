@@ -6,7 +6,7 @@
 3. Rebuild docker "pyspark-notebook" image to support spark 3.0.0 version for PyDeequ needs according to instructions: https://jupyter-docker-stacks.readthedocs.io/en/latest/using/specifics.html
 Please pay attention with java version, should be 8!
 
-```docker build --rm --force-rm -t jupyter/pyspark-notebook:spark-3.0.0 ./pyspark-notebook --build-arg spark_version=3.0.0 --build-arg spark_checksum=bfe45406c67cc4ae00411ad18cc438f51e7d4b6f14eb61e7bf6b5450897c2e8d3ab020152657c0239f253735c263512ffabf538ac5b9fffa38b8295736a9c387 --build-arg openjdk_version=8```
+```docker build --rm --force-rm -t jupyter/pyspark-notebook:spark-3.0.0 ./pyspark-notebook --build-arg spark_version=3.0.0 --build-arg hadoop_version=3.2 --build-arg spark_checksum=BFE45406C67CC4AE00411AD18CC438F51E7D4B6F14EB61E7BF6B5450897C2E8D3AB020152657C0239F253735C263512FFABF538AC5B9FFFA38B8295736A9C387 --build-arg openjdk_version=8```
 
 4. Run rebuilt docker image :
 
